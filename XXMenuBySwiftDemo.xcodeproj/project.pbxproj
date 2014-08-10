@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F824A5671995A97E00A51074 /* bgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = F824A5611995A97E00A51074 /* bgImg.png */; };
+		F824A5681995A97E00A51074 /* bgImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F824A5621995A97E00A51074 /* bgImg@2x.png */; };
+		F824A5691995A97E00A51074 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = F824A5631995A97E00A51074 /* Default-568h.png */; };
+		F824A56A1995A97E00A51074 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F824A5641995A97E00A51074 /* Default-568h@2x.png */; };
+		F824A56B1995A97E00A51074 /* nav_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = F824A5651995A97E00A51074 /* nav_menu.png */; };
+		F824A56C1995A97E00A51074 /* nav_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F824A5661995A97E00A51074 /* nav_menu@2x.png */; };
+		F824A56F1995B15B00A51074 /* LeftMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F824A56E1995B15B00A51074 /* LeftMenu.swift */; };
+		F824A5711995B16C00A51074 /* RightMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F824A5701995B16C00A51074 /* RightMenu.swift */; };
+		F824A5741995B27500A51074 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F824A5731995B27500A51074 /* MainViewController.swift */; };
+		F824A5761995B28800A51074 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F824A5751995B28800A51074 /* DetailViewController.swift */; };
 		F8F6123C19937CBE0062869E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6123B19937CBE0062869E /* AppDelegate.swift */; };
 		F8F6123E19937CBE0062869E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6123D19937CBE0062869E /* ViewController.swift */; };
 		F8F6124119937CBE0062869E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F6123F19937CBE0062869E /* Main.storyboard */; };
@@ -25,6 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F824A5611995A97E00A51074 /* bgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgImg.png; sourceTree = "<group>"; };
+		F824A5621995A97E00A51074 /* bgImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgImg@2x.png"; sourceTree = "<group>"; };
+		F824A5631995A97E00A51074 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+		F824A5641995A97E00A51074 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F824A5651995A97E00A51074 /* nav_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_menu.png; sourceTree = "<group>"; };
+		F824A5661995A97E00A51074 /* nav_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_menu@2x.png"; sourceTree = "<group>"; };
+		F824A56E1995B15B00A51074 /* LeftMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenu.swift; sourceTree = "<group>"; };
+		F824A5701995B16C00A51074 /* RightMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenu.swift; sourceTree = "<group>"; };
+		F824A5731995B27500A51074 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F824A5751995B28800A51074 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F8F6123619937CBE0062869E /* XXMenuBySwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXMenuBySwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F6123A19937CBE0062869E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F6123B19937CBE0062869E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +74,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F824A5601995A97E00A51074 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F824A5611995A97E00A51074 /* bgImg.png */,
+				F824A5621995A97E00A51074 /* bgImg@2x.png */,
+				F824A5631995A97E00A51074 /* Default-568h.png */,
+				F824A5641995A97E00A51074 /* Default-568h@2x.png */,
+				F824A5651995A97E00A51074 /* nav_menu.png */,
+				F824A5661995A97E00A51074 /* nav_menu@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F824A56D1995B14000A51074 /* MenuFile */ = {
+			isa = PBXGroup;
+			children = (
+				F824A56E1995B15B00A51074 /* LeftMenu.swift */,
+				F824A5701995B16C00A51074 /* RightMenu.swift */,
+			);
+			name = MenuFile;
+			sourceTree = "<group>";
+		};
+		F824A5721995B1E700A51074 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F824A5731995B27500A51074 /* MainViewController.swift */,
+				F824A5751995B28800A51074 /* DetailViewController.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
 		F8F6122D19937CBD0062869E = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +126,9 @@
 		F8F6123819937CBE0062869E /* XXMenuBySwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F824A5721995B1E700A51074 /* MainViewController */,
+				F824A56D1995B14000A51074 /* MenuFile */,
+				F824A5601995A97E00A51074 /* images */,
 				F8F6123B19937CBE0062869E /* AppDelegate.swift */,
 				F8F6123D19937CBE0062869E /* ViewController.swift */,
 				F8F6123F19937CBE0062869E /* Main.storyboard */,
@@ -189,8 +243,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F824A5691995A97E00A51074 /* Default-568h.png in Resources */,
+				F824A5671995A97E00A51074 /* bgImg.png in Resources */,
 				F8F6124119937CBE0062869E /* Main.storyboard in Resources */,
 				F8F6124319937CBE0062869E /* Images.xcassets in Resources */,
+				F824A56B1995A97E00A51074 /* nav_menu.png in Resources */,
+				F824A56C1995A97E00A51074 /* nav_menu@2x.png in Resources */,
+				F824A5681995A97E00A51074 /* bgImg@2x.png in Resources */,
+				F824A56A1995A97E00A51074 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F6123E19937CBE0062869E /* ViewController.swift in Sources */,
+				F824A5711995B16C00A51074 /* RightMenu.swift in Sources */,
 				F8F6123C19937CBE0062869E /* AppDelegate.swift in Sources */,
+				F824A5761995B28800A51074 /* DetailViewController.swift in Sources */,
+				F824A56F1995B15B00A51074 /* LeftMenu.swift in Sources */,
+				F824A5741995B27500A51074 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = XXMenuBySwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = XXMenuBySwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +461,7 @@
 				F8F6125419937CBE0062869E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8F6125519937CBE0062869E /* Build configuration list for PBXNativeTarget "XXMenuBySwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +470,7 @@
 				F8F6125719937CBE0062869E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
