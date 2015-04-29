@@ -23,13 +23,13 @@ class LeftMenu: UIView, UITableViewDelegate, UITableViewDataSource {
     }
     
     // UITableViewDataSource Methods
-    func numberOfSectionsInTableView(tableView: UITableView!) -> Int
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int
     {
         return 1
     }
     
     
-    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return self.tableData.count;
     }
@@ -37,11 +37,15 @@ class LeftMenu: UIView, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!
     {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath : indexPath) as UITableViewCell!
-        cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
-        cell.textLabel.text = self.tableData.objectAtIndex(indexPath.row) as String
+        var cell : UITableViewCell? = tableView.dequeueReusableCellWithIdentifier("cell") as? UITableViewCell
+        if(cell == nil){
+            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "cell")
+        }
         
-        return cell
+        cell!.textLabel!.text = self.tableData.objectAtIndex(indexPath.row) as? String
+
+        
+        return cell!
     }
     
     

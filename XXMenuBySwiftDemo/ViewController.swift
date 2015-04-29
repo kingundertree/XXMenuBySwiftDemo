@@ -120,7 +120,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 //    rightMenuView.frame = changedRightFrame;
 
     
-    func gestureRecognizer(gestureRecognizer: UIGestureRecognizer!, shouldReceiveTouch touch: UITouch!) -> Bool {
+    func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldReceiveTouch touch: UITouch) -> Bool {
         if(menuStatus == menuStatusType.menuOnMain && gestureRecognizer.isKindOfClass(UITapGestureRecognizer)){
             return false
         }

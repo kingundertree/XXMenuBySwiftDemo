@@ -14,10 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var vc = ViewController()
     
-    func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-        // Override point for customization after application launch.
-        
-//        vc = ViewController()
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         vc.initWithRootNavgationController(UINavigationController(rootViewController: MainViewController()))
         
         self.window!.rootViewController = vc
@@ -26,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func sharedAppDelegate() -> AppDelegate{
-        return UIApplication.sharedApplication().delegate as AppDelegate
+        return UIApplication.sharedApplication().delegate as! AppDelegate
     }
     
     func applicationWillResignActive(application: UIApplication!) {
